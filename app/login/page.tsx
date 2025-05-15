@@ -32,7 +32,7 @@ export default function LoginPage() {
       await new Promise((resolve) => setTimeout(resolve, 1000))
 
       // Simple validation for demo
-      if (email === "admin@wilbroad.com" && password === "wilbroad") {
+      if (email === "admin@wilbroad.com" && password === "wilbroad2025") {
         // Set a cookie to simulate authentication
         document.cookie = "auth_token=dummy_token; path=/; max-age=86400"
 
